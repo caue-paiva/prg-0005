@@ -2,7 +2,9 @@
 
 **Prazo indicado:** 09/10/2026 às 23h59. **Envio:** um PDF por equipe no e-Disciplinas. **Fonte:** [caderno editável](caderno.pptx), oito slides, numerados 11–18 no material.
 
-**Registros recebidos:** [E1 — relato e rascunho de mapa de empatia](entrevistas/E1.md). Os campos sem evidência estão identificados; a síntese coletiva depende das demais entrevistas.
+**Registros recebidos:** [E1](entrevistas/E1.md), [E2](entrevistas/E2.md) e [E3](entrevistas/E3.md), com rascunhos dos mapas de empatia. A [síntese parcial](sintese-parcial.md) compara os três relatos; a síntese coletiva depende das demais entrevistas.
+
+**Texto para preencher o caderno:** [respostas por slide](respostas-entrega-2.md), incluindo as três respostas do slide de preparação. É um rascunho para revisão da equipe, com lacunas indicadas.
 
 ## Objetivo
 
