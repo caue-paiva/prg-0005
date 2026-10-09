@@ -114,7 +114,7 @@ MAPS = [
             176: "Listas de cálculo em folhas soltas.",
             179: "Dicas surgem na prática e depois se perdem.",
             182: "Resolve exercícios com amigos na biblioteca.",
-            185: "Opiniões ou orientações não relatadas.",
+            185: "Ouve que colegas acertam exercícios, mas depois esquecem como refazê-los.",
             188: "Sente frustração: dicas perdidas poderiam ajudar nas provas.",
             195: "Dicas criadas pelo grupo se perdem antes das provas.",
         },
@@ -131,7 +131,7 @@ MAPS = [
             179: "O Docs limita vídeos, imagens e resoluções.",
             182: "Produz resumos para explicar aos colegas.",
             185: "Ouve que os resumos são bons, mas às vezes maçantes.",
-            188: "Acha o Docs limitado. Emoção não relatada.",
+            188: "Preparar resumos demora e a pessoa se sente cansada.",
             195: "O Docs dificulta registrar explicações com mídia e contas.",
         },
     },
@@ -163,7 +163,7 @@ MAPS = [
             179: "Buscar materiais reduzia a produtividade.",
             182: "Estudava sozinho entre trabalho e aulas.",
             185: "Colegas: aprenderá mais no mercado que na faculdade.",
-            188: "Acha que alternar contexto atrapalha o estudo.",
+            188: "Sente-se perdido e cansado ao mudar de contexto.",
             195: "Localizar materiais consome parte do pouco tempo de estudo.",
         },
     },
@@ -178,7 +178,7 @@ MAPS = [
             176: "Soluções em cadernos, arquivos e mensagens.",
             179: "Grupo grande sem material central.",
             182: "Estuda em grupo. Refaz soluções e repete dúvidas.",
-            185: "Não relatou comentários ou orientações recebidos.",
+            185: "Ouve que colegas acertam exercícios, mas depois esquecem como refazê-los.",
             188: "Grupo ajuda, mas conversas paralelas e desorganização atrapalham.",
             195: "Sem registro comum, o grupo perde conclusões e repete dúvidas.",
         },
@@ -198,7 +198,7 @@ def fill_map(source: bytes, data: dict[str, object]) -> bytes:
         if shape_id == 195:
             size = 9.4 if code == "E3" else 10.6
         replace_shape(root, shape_id, content, points=size)
-    replace_shape(root, 196, "Campos: paráfrases. 'Precisa fazer' e insight: interpretações da equipe.", points=9.0)
+    replace_shape(root, 196, "Relatos em paráfrase. Necessidade e insight: interpretações da equipe.", points=9.0)
     add_header_text(root, 500, str(data["date"]), 7.30, 1.61, 0.55, 0.13, 6.7)
     add_header_text(root, 501, str(data["author"]).split()[0], 7.19, 1.785, 0.62, 0.19, 7.6, transparent=True)
     return xml_bytes(root)
@@ -232,38 +232,38 @@ def build() -> None:
         (
             "E1, E2 e E5 buscam materiais úteis ao estudo em grupo.",
             "E3 busca a utilidade das matérias. E4 precisa retomar o estudo em tempo curto.",
-            "Grupo: E1/E2/E5. Matérias: E3. Tempo: E4.",
+            "E1: quer guardar dicas. E2: quer incluir mídia e contas. E5: falta material central.",
             "Investigar quais objetivos se repetem entre os estudantes.",
         ),
         (
             "E1, E2 e E5 relatam problemas com materiais.",
             "E1 perde dicas. E2 limitações do Docs. E5 registros dispersos. E3/E4 trazem outras dores.",
-            "Materiais: E1/E2/E5. Outras: E3/E4.",
+            "E1: dicas esquecidas. E2: Docs limita formatos. E5: materiais dispersos.",
             "Investigar como registrar e recuperar explicações.",
         ),
         (
             "E1, E2, E3 e E5 estudam com colegas.",
             "E3 alterna com estudo individual. E4 estudava sozinho em blocos curtos.",
-            "Grupo: E1/E2/E3/E5. Individual: E3/E4.",
+            "E1: listas em grupo. E2: resumos ao grupo. E3: estudo misto. E4: estuda só. E5: grupo.",
             "Não generalizar os modos de estudar.",
         ),
         (
             "E1 e E2 usam registros próprios durante o estudo.",
             "E1 usa papel. E2 usa Docs. E3 consulta veteranos. E5 relata materiais dispersos.",
-            "E1, E2, E3, E5",
+            "E1: folhas soltas. E2: Docs. E3: veteranos. E5: cadernos, arquivos e mensagens.",
             "Entender práticas atuais antes de definir ferramenta.",
         ),
         (
             "Não surgiu um desejo recorrente entre os relatos.",
             "E1 quer guardar dicas para provas. E3 busca a utilidade profissional das matérias.",
-            "E1, E3",
+            "E1: quer rever dicas para provas. E3: busca uso profissional das matérias.",
             "Verificar se esses resultados importam a outros estudantes.",
         ),
     ]
     for row, content in enumerate(table):
         for col, value in enumerate(content):
             replace_shape(slide6, 222 + row * 10 + col * 2, value, points=8.4)
-    replace_shape(slide6, 269, "Síntese qualitativa de E1–E5. As implicações são interpretações da equipe.", points=10.5)
+    replace_shape(slide6, 269, "Padrões e implicações são interpretações da equipe apoiadas nos relatos E1–E5.", points=10.5)
     entries["ppt/slides/slide6.xml"] = xml_bytes(slide6)
 
     slide7 = ET.fromstring(entries["ppt/slides/slide7.xml"])

@@ -1,6 +1,6 @@
 # Entrega 2 — respostas para o caderno (V2)
 
-**V2 gerada:** [PPTX editável](Entrega_2_Collabora.AI_v2.pptx) e [PDF](Entrega_2_Collabora.AI_v2.pdf). Este arquivo conserva formulações mais completas dos relatos. O PPTX usa versões abreviadas para caber nos campos.
+**Entrega atual:** [PPTX editável](Entrega_2_Collabora.AI_v2.pptx) e [PDF para envio](Entrega_2_Collabora.AI.pdf). A [cópia PDF da V2](Entrega_2_Collabora.AI_v2.pdf) contém o mesmo conteúdo. Este arquivo conserva formulações mais completas dos relatos. O PPTX usa versões abreviadas para caber nos campos.
 
 **Revisão de estilo aplicada:** os textos dos slides da V2 usam ponto final ou conectivos no lugar de pontos e vírgulas.
 
@@ -53,7 +53,7 @@ Use uma cópia do template para cada código. Estas formulações são curtas pa
 | O que vê? | Listas de exercícios e folhas soltas usadas durante o estudo. |
 | O que fala? | Conta que o grupo descobre dicas e caminhos de resolução, mas parte deles se perde depois. Paráfrase. |
 | O que faz? | Estuda com amigos e resolve listas em folhas soltas. |
-| O que escuta? | Pendente de apuração; não copiar como fala do entrevistado. |
+| O que escuta? | Ouve que colegas acertam exercícios, mas depois esquecem como resolvê-los e não conseguem refazê-los em tentativas posteriores. Paráfrase do relato. |
 | O que pensa e sente? | Sente frustração ao perder dicas úteis para as provas e acredita que algumas poderiam ajudá-la a obter notas maiores. |
 | Insight principal | Perder dicas produzidas durante os exercícios frustra E1 e, em sua avaliação, pode prejudicar a preparação para provas. |
 
@@ -69,7 +69,7 @@ Use uma cópia do template para cada código. Estas formulações são curtas pa
 | O que fala? | Conta que considera o Google Docs limitado para inserir esses formatos e resoluções. Paráfrase. |
 | O que faz? | Estuda com amigos e prepara resumos e materiais no Google Docs. |
 | O que escuta? | Colegas dizem que seus resumos são bons, mas que às vezes ficam maçantes. Paráfrase. |
-| O que pensa e sente? | Considera a ferramenta limitada para essa tarefa; emoção específica pendente de apuração. |
+| O que pensa e sente? | Considera o Google Docs limitado para essa tarefa. Sente que preparar os resumos demora muito e é cansativo. |
 | Insight principal | O formato usado para preparar explicações pode dificultar a inclusão de recursos visuais e contas matemáticas. |
 
 ### Mapa E3
@@ -99,7 +99,7 @@ Use uma cópia do template para cada código. Estas formulações são curtas pa
 | O que fala? | Diz que mudar de contexto e buscar materiais reduzia a produtividade do estudo nos primeiros semestres. Paráfrase. |
 | O que faz? | Trabalha, frequenta aulas noturnas e estuda individualmente; nos primeiros semestres, usava pequenos intervalos durante a semana. |
 | O que escuta? | Colegas dizem que aprenderá bem mais no mercado de trabalho do que na faculdade. |
-| O que pensa e sente? | Avalia que o horário fragmentado e a busca de materiais prejudicavam o estudo; emoção específica não relatada. |
+| O que pensa e sente? | Fica perdido e cansado ao mudar de contexto. Avalia que o horário fragmentado e a busca de materiais prejudicavam o estudo. |
 | Insight principal | Nos primeiros semestres, localizar materiais e retomar o contexto consumia parte do tempo curto disponível para estudar. |
 
 ### Mapa E5
@@ -113,7 +113,7 @@ Use uma cópia do template para cada código. Estas formulações são curtas pa
 | O que vê? | Anotações e resoluções espalhadas entre cadernos, arquivos e mensagens; colegas usam materiais diferentes. |
 | O que fala? | Diz que o grupo ajuda, mas grupos grandes ficam bagunçados: há resoluções duplicadas, dúvidas repetidas e falta de conclusão comum. Paráfrase. |
 | O que faz? | Estuda com colegas que cursam as mesmas matérias; o grupo às vezes perde o ponto em que parou. |
-| O que escuta? | Não relatou comentários ou orientações recebidos. As conversas paralelas descritas no relato pertencem à situação de estudo, não a este campo. |
+| O que escuta? | Ouve que colegas acertam exercícios, mas depois esquecem como resolvê-los e não conseguem refazê-los em tentativas posteriores. Paráfrase do relato. |
 | O que pensa e sente? | Considera o grupo útil no ciclo básico pesado; avalia que materiais e conversas dispersos atrapalham a organização. Emoção específica não relatada. |
 | Insight principal | Sem registro comum, o grupo perde resoluções e conclusões entre sessões e volta a dúvidas já discutidas. |
 
@@ -123,17 +123,17 @@ Os campos com informação ausente são marcações de trabalho, não falas dos 
 
 | Dimensão | Padrões ou convergências | Diferenças ou tensões | Evidências anônimas | Implicação provisória |
 | --- | --- | --- | --- | --- |
-| Necessidades e objetivos | E1, E2 e E5 buscam materiais úteis ao estudo em grupo. | E3 busca a utilidade das matérias. E4 precisa retomar o estudo em tempo curto. | Grupo: E1/E2/E5. Matérias: E3. Tempo: E4. | Investigar quais objetivos se repetem entre os estudantes. |
-| Dificuldades e dores | E1, E2 e E5 relatam problemas com materiais. | E1 perde dicas. E2 vê limites no Docs. E5 encontra registros dispersos. E3 e E4 trazem outras dores. | Materiais: E1/E2/E5. Outras: E3/E4. | Investigar como registrar e recuperar explicações. |
-| Comportamentos | E1, E2, E3 e E5 estudam com colegas. | E3 também estuda individualmente. E4 estudava sozinho em blocos curtos. | Grupo: E1/E2/E3/E5. Individual: E3/E4. | Não generalizar os modos de estudar. |
-| Alternativas atuais | E1 e E2 usam registros próprios durante o estudo. | E1 usa papel. E2 usa Docs. E3 consulta veteranos. E5 relata materiais dispersos. | E1, E2, E3, E5 | Entender práticas atuais antes de definir ferramenta. |
-| Desejos e expectativas | Não surgiu um desejo recorrente entre os relatos. | E1 quer guardar dicas para provas. E3 busca a utilidade profissional das matérias. | E1, E3 | Verificar se esses resultados importam a outros estudantes. |
+| Necessidades e objetivos | E1, E2 e E5 buscam materiais úteis ao estudo em grupo. | E3 busca a utilidade das matérias. E4 precisa retomar o estudo em tempo curto. | E1: quer guardar dicas. E2: quer incluir mídia e contas. E5: falta material central. | Investigar quais objetivos se repetem entre os estudantes. |
+| Dificuldades e dores | E1, E2 e E5 relatam problemas com materiais. | E1 perde dicas. E2 vê limites no Docs. E5 encontra registros dispersos. E3 e E4 trazem outras dores. | E1: dicas esquecidas. E2: Docs limita formatos. E5: materiais dispersos. | Investigar como registrar e recuperar explicações. |
+| Comportamentos | E1, E2, E3 e E5 estudam com colegas. | E3 também estuda individualmente. E4 estudava sozinho em blocos curtos. | E1: listas em grupo. E2: resumos ao grupo. E3: estudo misto. E4: estuda só. E5: grupo. | Não generalizar os modos de estudar. |
+| Alternativas atuais | E1 e E2 usam registros próprios durante o estudo. | E1 usa papel. E2 usa Docs. E3 consulta veteranos. E5 relata materiais dispersos. | E1: folhas soltas. E2: Docs. E3: veteranos. E5: cadernos, arquivos e mensagens. | Entender práticas atuais antes de definir ferramenta. |
+| Desejos e expectativas | Não surgiu um desejo recorrente entre os relatos. | E1 quer guardar dicas para provas. E3 busca a utilidade profissional das matérias. | E1: quer rever dicas para provas. E3: busca uso profissional das matérias. | Verificar se esses resultados importam a outros estudantes. |
 
 E1, E2 e E5 apresentam uma **convergência qualitativa** na importância dos materiais do estudo em grupo: dicas que se perdem, limites para registrar explicações e materiais dispersos que levam a resoluções duplicadas e dúvidas repetidas. E5 também relata conversas paralelas em grupos grandes. E3 traz uma questão sobre a ligação entre disciplinas; E4 recorda o custo de retomar o estudo individual em horários fragmentados. A [síntese dos cinco relatos](sintese-parcial.md) preserva essas diferenças.
 
 ## Slide 7 — revisão (página 17)
 
-Marcar as caixas apenas depois de confirmar uma entrevista por integrante participante, um mapa por entrevista, separação entre relatos e interpretações, anonimização e síntese completa. O PDF da V2 está em `Entrega_2_Collabora.AI_v2.pdf`.
+Marcar as caixas apenas depois de confirmar uma entrevista por integrante participante, um mapa por entrevista, separação entre relatos e interpretações, anonimização e síntese completa. O PDF para envio está em `Entrega_2_Collabora.AI.pdf`.
 
 ## Slide 8 — participação e uso de IA (página 18)
 
@@ -152,10 +152,9 @@ Esta preparação usou IA generativa para organizar os relatos, redigir rascunho
 ## Dados que faltam para concluir a entrega
 
 - Conferência pela equipe de que os cinco registros correspondem a entrevistas realizadas por cada integrante e de que os resumos representam fielmente o que foi dito.
-- Em E1, um exemplo de dica perdida e como isso afetou a preparação para uma prova; em E2, exemplos da limitação, estratégias usadas, pensamentos/sentimentos e resultado desejado, se for possível retomar as conversas.
+- Em E1, um exemplo de dica perdida e como isso afetou a preparação para uma prova; em E2, exemplos da limitação, estratégias usadas e resultado desejado, se for possível retomar as conversas.
 - Em E3, um exemplo concreto de matéria sobre a qual perguntou a veteranos, como recebeu a resposta e se a dificuldade muda entre estudo individual e em grupo, se for possível retomar a conversa.
 - Em E4, um episódio concreto de estudo em bloco curto no 1º ou 2º semestre, como organizava os materiais, se a rotina mudou no 4º semestre e o que pensa do comentário dos colegas, se for possível retomar a conversa.
-- Em E5, um episódio concreto de sessão “bagunçada”, comentários ou orientações recebidos de colegas e qual consequência pesou mais no aprendizado, se for possível retomar a conversa.
-- Resposta sustentada para “o que escuta?” de E1, caso tenha sido relatada na entrevista.
+- Em E5, um episódio concreto de sessão “bagunçada” e qual consequência pesou mais no aprendizado, se for possível retomar a conversa.
 - Síntese coletiva revista pela equipe após as cinco entrevistas, distinguindo relatos de inferências.
 - Confirmação de quem efetivamente participou desta entrega, revisão das contribuições e da declaração sobre uso de IA pela equipe. Os NUSP acima foram recuperados da Entrega 1.

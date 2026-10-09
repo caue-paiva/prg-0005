@@ -6,9 +6,9 @@
 
 **Texto para preencher o caderno:** [respostas por slide](respostas-entrega-2.md), incluindo as três respostas do slide de preparação. É um rascunho para revisão da equipe, com lacunas indicadas.
 
-**V2 para revisão e entrega:** [PPTX editável](Entrega_2_Collabora.AI_v2.pptx) e [PDF](Entrega_2_Collabora.AI_v2.pdf). O PPTX é gerado a partir do caderno com `python3 scripts/build_entrega_2.py` na raiz do repositório. A equipe deve conferir a fidelidade dos relatos e a declaração de uso de IA antes do envio. Os cinco mapas mostram o nome do integrante entrevistador em “Por” e a data da entrevista. E1 não relatou o que escuta, e o mapa registra essa limitação.
+**Entrega atual:** [PPTX editável](Entrega_2_Collabora.AI_v2.pptx) e [PDF para envio](Entrega_2_Collabora.AI.pdf), também disponível como [cópia V2](Entrega_2_Collabora.AI_v2.pdf). O PPTX é gerado a partir do caderno com `python3 scripts/build_entrega_2.py` na raiz do repositório. A equipe deve conferir a fidelidade dos relatos e a declaração de uso de IA antes do envio. Os cinco mapas mostram o primeiro nome de quem entrevistou no campo “Por” e a data da entrevista. As falas são apresentadas como paráfrases e a síntese cita evidências concretas por código.
 
-**V1 preservada:** [PPTX](Entrega_2_Collabora.AI.pptx) e [PDF](Entrega_2_Collabora.AI.pdf). A V2 inclui a rotina de E3, explicita que E4 relata experiências do 1º e do 2º semestres, preenche nomes e datas nos mapas e revisa a síntese. Os textos da V2 não usam pontos e vírgulas.
+**V1 preservada:** [PPTX anterior](Entrega_2_Collabora.AI.pptx). O PDF anterior permanece no histórico do Git. A V2 inclui a rotina de E3, explicita que E4 relata experiências do 1º e do 2º semestres, preenche nomes e datas nos mapas e revisa a síntese. Os textos da V2 não usam pontos e vírgulas.
 
 ## Objetivo
 
