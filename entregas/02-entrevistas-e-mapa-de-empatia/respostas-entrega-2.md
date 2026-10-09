@@ -1,6 +1,6 @@
-# Entrega 2 — respostas para o caderno (V2)
+# Entrega 2 — respostas usadas na V2 anterior à edição final
 
-**Entrega atual:** [PPTX editável](Entrega_2_Collabora.AI_v2.pptx) e [PDF para envio](Entrega_2_Collabora.AI.pdf). A [cópia PDF da V2](Entrega_2_Collabora.AI_v2.pdf) contém o mesmo conteúdo. Este arquivo conserva formulações mais completas dos relatos. O PPTX usa versões abreviadas para caber nos campos.
+**Versão final editada pela equipe:** [PPTX final](Entrega_2_Collabora.AI_final.pptx) e [PDF para envio](Entrega_2_Collabora.AI.pdf). Este Markdown documenta a [V2 anterior](Entrega_2_Collabora.AI_v2.pptx), também preservada em [PDF](Entrega_2_Collabora.AI_v2.pdf). A versão final foi editada depois deste rascunho e pode ter formulações diferentes.
 
 **Revisão de estilo aplicada:** os textos dos slides da V2 usam ponto final ou conectivos no lugar de pontos e vírgulas.
 
