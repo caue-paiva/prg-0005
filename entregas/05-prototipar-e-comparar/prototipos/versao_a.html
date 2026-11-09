@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Versão A — Caderno Collabora</title>
+<style>
+  :root {
+    --ink: #1e293b; --muted: #64748b; --line: #cbd5e1; --soft: #f1f5f9;
+    --accent: #15365f; --ok: #0f766e; --warn: #b45309; --todo: #94a3b8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { width: 1260px; height: 700px; background: #fff; font-family: "Liberation Sans", Arial, sans-serif;
+         color: var(--ink); display: flex; justify-content: space-around; align-items: flex-start; padding-top: 6px; }
+  .col { width: 384px; display: flex; flex-direction: column; align-items: center; }
+  .step { font-size: 21px; font-weight: 700; color: var(--accent); height: 34px; }
+  .step span { display: inline-block; background: var(--accent); color: #fff; border-radius: 50%;
+               width: 28px; height: 28px; line-height: 28px; text-align: center; margin-right: 8px; font-size: 17px; }
+  .phone { width: 370px; height: 652px; border: 3px solid #334155; border-radius: 30px; padding: 14px 12px;
+           display: flex; flex-direction: column; background: #fff; }
+  .bar { display: flex; justify-content: space-between; align-items: center; padding-bottom: 8px;
+         border-bottom: 2px solid var(--line); margin-bottom: 10px; }
+  .bar b { font-size: 20px; }
+  .bar small { font-size: 14px; color: var(--muted); }
+  .avatars { display: flex; }
+  .avatars i { width: 24px; height: 24px; border-radius: 50%; border: 2px solid #fff; margin-left: -6px;
+               font-style: normal; font-size: 12px; line-height: 20px; text-align: center; color: #fff; background: #64748b; }
+  .card { border: 2px solid var(--accent); border-radius: 12px; padding: 10px 12px; background: #eef3f9; margin-bottom: 10px; }
+  .label { font-size: 13px; font-weight: 700; letter-spacing: .04em; color: var(--accent); text-transform: uppercase; }
+  .big { font-size: 20px; font-weight: 700; margin: 3px 0; }
+  .sub { font-size: 15px; color: var(--muted); }
+  .btn { display: block; text-align: center; background: var(--accent); color: #fff; font-weight: 700; font-size: 17px;
+         border-radius: 10px; padding: 9px; margin-top: 8px; }
+  .btn.ghost { background: #fff; color: var(--accent); border: 2px solid var(--accent); }
+  .progress { height: 10px; background: var(--soft); border-radius: 6px; margin: 6px 0 8px; }
+  .progress div { height: 10px; width: 62%; background: var(--ok); border-radius: 6px; }
+  .row { display: flex; justify-content: space-between; align-items: center; font-size: 16px;
+         padding: 7px 4px; border-bottom: 1px solid var(--line); }
+  .row em { font-style: normal; font-size: 14px; font-weight: 700; border-radius: 10px; padding: 2px 8px; }
+  .ok { color: var(--ok); background: #e6f4f1; } .warn { color: var(--warn); background: #fdf1e3; } .todo { color: #475569; background: var(--soft); }
+  .nav { margin-top: auto; display: flex; justify-content: space-around; border-top: 2px solid var(--line); padding-top: 8px;
+         font-size: 14px; color: var(--muted); }
+  .nav .on { color: var(--accent); font-weight: 700; }
+  .photo { height: 150px; border: 2px dashed var(--line); border-radius: 10px; background: #fafaf7; position: relative; margin-bottom: 8px; }
+  .photo svg { position: absolute; inset: 8px; }
+  .photo .tag { position: absolute; right: 8px; bottom: 6px; font-size: 13px; color: var(--muted); background: #fff; padding: 1px 6px; border-radius: 6px; }
+  .field { margin-bottom: 8px; }
+  .field .label { margin-bottom: 3px; }
+  .box { border: 1.5px solid var(--line); border-radius: 8px; padding: 6px 8px; font-size: 15px; line-height: 1.3; }
+  .chips { display: flex; gap: 6px; margin: 8px 0; }
+  .chips span { font-size: 14px; border: 1.5px solid var(--accent); color: var(--accent); border-radius: 14px; padding: 3px 10px; }
+  .search { border: 2px solid var(--accent); border-radius: 10px; padding: 8px 10px; font-size: 17px; }
+  .res { border: 1.5px solid var(--line); border-radius: 10px; padding: 8px 10px; margin-bottom: 8px; }
+  .res b { font-size: 16px; }
+  .res p { font-size: 15px; margin-top: 3px; line-height: 1.3; }
+  .res small { font-size: 13px; color: var(--muted); }
+  mark { background: #fde68a; }
+</style>
+</head>
+<body>
+
+<!-- Tela 1: retomar -->
+<div class="col">
+  <div class="step"><span>1</span>Retomar</div>
+  <div class="phone">
+    <div class="bar">
+      <div><b>Cálculo I</b><br><small>Grupo da turma 2</small></div>
+      <div class="avatars"><i>A</i><i style="background:#0f766e">B</i><i style="background:#b45309">C</i><i style="background:#475569">D</i></div>
+    </div>
+    <div class="card">
+      <div class="label">Onde paramos</div>
+      <div class="big">Lista 3 · Exercício 6</div>
+      <div class="sub">Terça, 21h · Bia registrou o ex. 5</div>
+      <span class="btn">Continuar daqui</span>
+    </div>
+    <div class="label" style="color:var(--ink)">Lista 3 · Integrais</div>
+    <div class="sub">5 de 8 exercícios resolvidos</div>
+    <div class="progress"><div></div></div>
+    <div class="row">Ex. 1 · substituição <em class="ok">resolvido</em></div>
+    <div class="row">Ex. 2 · substituição <em class="ok">resolvido</em></div>
+    <div class="row">Ex. 4 · partes duas vezes <em class="warn">com dúvida</em></div>
+    <div class="row">Ex. 5 · por partes <em class="ok">resolvido</em></div>
+    <div class="row">Ex. 6 · frações parciais <em class="todo">pendente</em></div>
+    <div class="nav"><span class="on">Início</span><span>Buscar</span><span>+ Registrar</span></div>
+  </div>
+</div>
+
+<!-- Tela 2: registrar -->
+<div class="col">
+  <div class="step"><span>2</span>Registrar</div>
+  <div class="phone">
+    <div class="bar">
+      <div><b>Lista 3 · Ex. 5</b><br><small>Cálculo I · por partes</small></div>
+      <small>Cancelar</small>
+    </div>
+    <div class="photo">
+      <svg viewBox="0 0 330 130" width="330" height="130">
+        <g fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round">
+          <text x="14" y="42" font-size="34" fill="#334155" stroke="none" font-family="DejaVu Serif">∫</text>
+          <text x="40" y="38" font-size="22" fill="#334155" stroke="none" font-family="DejaVu Serif" font-style="italic">x·eˣ dx</text>
+          <text x="14" y="76" font-size="18" fill="#334155" stroke="none" font-family="DejaVu Serif" font-style="italic">u = x  ,  dv = eˣ dx</text>
+          <text x="14" y="110" font-size="18" fill="#334155" stroke="none" font-family="DejaVu Serif" font-style="italic">= x·eˣ − eˣ + C</text>
+          <path d="M200 100 l10 8 l18 -22" stroke="#0f766e" stroke-width="3"/>
+        </g>
+      </svg>
+      <span class="tag">foto da folha</span>
+    </div>
+    <div class="field"><div class="label">Passos</div>
+      <div class="box">1. Escolher u = x e dv = eˣ dx<br>2. Aplicar ∫u dv = uv − ∫v du<br>3. Somar a constante C</div></div>
+    <div class="field"><div class="label">Dica-chave</div>
+      <div class="box">Chame de u o que fica mais simples ao derivar.</div></div>
+    <div class="field"><div class="label">Ficou dúvida?</div>
+      <div class="box" style="color:var(--muted)">Nenhuma · marcar como resolvido ✓</div></div>
+    <span class="btn" style="margin-top:auto">Salvar no caderno do grupo</span>
+  </div>
+</div>
+
+<!-- Tela 3: reencontrar -->
+<div class="col">
+  <div class="step"><span>3</span>Reencontrar</div>
+  <div class="phone">
+    <div class="bar">
+      <div><b>Buscar</b><br><small>no caderno do grupo</small></div>
+    </div>
+    <div class="search"><svg width="18" height="18" viewBox="0 0 20 20" style="vertical-align:-2px;margin-right:6px"><circle cx="8" cy="8" r="6" fill="none" stroke="#15365f" stroke-width="2.5"/><path d="M12.5 12.5 L18 18" stroke="#15365f" stroke-width="2.5" stroke-linecap="round"/></svg>integração por partes</div>
+    <div class="chips"><span>Cálculo I</span><span>Todas as listas</span></div>
+    <div class="res">
+      <b>Lista 3 · Ex. 5</b> <em class="ok" style="font-style:normal;font-size:13px;border-radius:8px;padding:1px 6px">resolvido</em>
+      <p>Dica: chame de u o que fica mais simples ao derivar.</p>
+      <small>registrado por Bia · com foto e 3 passos</small>
+    </div>
+    <div class="res">
+      <b>Lista 3 · Ex. 4</b> <em class="warn" style="font-style:normal;font-size:13px;border-radius:8px;padding:1px 6px">com dúvida</em>
+      <p>Dúvida: quando aplicar <mark>partes</mark> duas vezes?</p>
+      <small>registrado por Caio</small>
+    </div>
+    <div class="res">
+      <b>Lista 2 · Ex. 7</b> <em class="ok" style="font-style:normal;font-size:13px;border-radius:8px;padding:1px 6px">resolvido</em>
+      <p>Dica: em ln(x), use u = ln(x) e dv = dx.</p>
+      <small>registrado por Alex</small>
+    </div>
+    <div class="nav"><span>Início</span><span class="on">Buscar</span><span>+ Registrar</span></div>
+  </div>
+</div>
+
+</body>
+</html>
